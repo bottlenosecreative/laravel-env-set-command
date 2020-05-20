@@ -11,6 +11,12 @@ This fork was created so I could store/view historic changes to the .env file fo
 
 Instead of outright replacing the old key/value pair in the .env file, instead we comment out the previous line, append a timecode of when it was modified, and add the new key/value pair below.
 
+To enable history, add the following to your .env:
+
+```
+ENVSET_HISTORY=true
+```
+
 env example:
 
 ![Env file example](https://bottlenosecreative.com.au/wp-content/uploads/2020/05/set-env-example.jpg "Env file example")
