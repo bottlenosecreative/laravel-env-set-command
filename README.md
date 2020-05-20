@@ -13,7 +13,7 @@ Instead of outright replacing the old key/value pair in the .env file, instead w
 
 env example:
 
-![Env file example](https://bottlenosecreative.com.au/wp-content/uploads/2020/05/laravel-env-set-example.jpg "Env file example")
+![Env file example](https://bottlenosecreative.com.au/wp-content/uploads/2020/05/set-env-example.jpg "Env file example")
 
 
 ## Original Readme:
