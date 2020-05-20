@@ -1,8 +1,16 @@
-# Laravel `set:env` Command
+# Laravel `set:env` Command (forked from [imliam/laravel-env-set-command](https://github.com/imliam/laravel-env-set-command)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/imliam/laravel-env-set-command.svg)](https://packagist.org/packages/imliam/laravel-env-set-command)
 [![Total Downloads](https://img.shields.io/packagist/dt/imliam/laravel-env-set-command.svg)](https://packagist.org/packages/imliam/laravel-env-set-command)
 [![License](https://img.shields.io/github/license/imliam/laravel-env-set-command.svg)](LICENSE.md)
+
+## Reason for Fork
+
+This fork was created so I could store/view historic changes to the .env file for debugging purposes. This allows admins/developers to track what env keys were modified, and when they were modified. 
+
+Instead of outright replacing the old key/value pair in the .env file, instead we comment out the previous line, append a timecode of when it was modified, and add the new key/value pair below.
+
+## Original Readme:
 
 Set a .env file variable from the command line.
 
